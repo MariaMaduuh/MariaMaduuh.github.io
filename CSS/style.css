@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: Roboto;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url('../Imagens/jade.jpg');
+}
+
+.logo {
+    width: 110px;
+    border-radius: 50%;
+}
+li {
+    list-style: none;
+   
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 26px;
+}
+header {
+    height: 110px;
+    padding: 15px;
+    background-color: #4e387e;
+    color:#fff;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+}
+
+main {
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 25px 20px 50px 20px;
+    background-color: #4e387e96;
+}
+section {
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-between;
+    padding: 10px;
+    border: #e9cfec;
+}
+article {
+    width: 250px;
+    border: 2px solid #e9cfec;
+    background-color: #d0c9dd;
+    box-shadow: 1px 15px 1em #4e387e;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+.preço {
+    background-color: #4e387e;
+    color: #fff;
+    border-radius: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+footer {
+    background-color: #4e387e;
+    width: 100%;
+    padding: 7%;
+    display: flex;
+    align-items: center;
+}
+p {
+    color: #fff;
+    font-size: 26px;
+}
+.insta {
+    width: 64px;
+}
